@@ -69,7 +69,7 @@
     slider.setup('masterslider', {
         width: 1024,
         height: 740,
-        fullwidth: true,
+        //fullwidth: true,
         centerControls: false,
         speed: 18,
         view: 'flow',
