@@ -95,7 +95,7 @@
                 nav: false
             },
             600: {
-                items: 3,
+                items: 7,
                 nav: false
             },
             1000: {

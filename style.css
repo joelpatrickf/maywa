@@ -1918,6 +1918,7 @@ figure img {
 .testi #quote-carousel.carousel blockquote p {
     letter-spacing: 1px;
     padding-top: 15px;
+    font-size: 25px!important;
 }
 
 .testi #quote-carousel.carousel blockquote .profile-circle img {
