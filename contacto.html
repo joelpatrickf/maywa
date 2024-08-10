@@ -13,11 +13,19 @@
     <link rel="stylesheet" href="Dependencies/owl.carousel.min.css">
     <link rel="stylesheet" href="Dependencies/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Dependencies/styleContacto.css">
     <link rel="shortcut icon" href="images/logo_maywa.png"> 
 
     
 
 <style>
+    .super-deal-section {
+        background-color: black!important;
+    }
+    body {
+        background-color: black!important;
+    }
+
     @font-face{
         font-family: fCorinthia;
         src: url("fonts/Corinthia-Bold.ttf");        
@@ -126,7 +134,7 @@
                                         <!-- MENU ARRIBA PRINCIPAL -->
                                         <li><a href="nosotros.html">Nosotros</a></li>
                                         <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="#">Contacto</a></li>
+                                        <li><a href="contacto.html">Contacto</a></li>
 
 
                                     </ul>
@@ -189,69 +197,100 @@
     </header>
 
 
-
-
-    <section class="blog">
+<section class="ftco-section">
         <div class="container">
-            <br><br>
-
-            <div class="row no-gutter">
-                
-                
-                <div class="col-md-8 col-sm-8" style="padding-left: 50px;">
-                    <div class="blog-wrapper">
-
-                        <div class="blog-content">
-                            <h4 class="blog-title"><a  class="fuenteCorinthia" >Misión</a></h4>
-                            <!-- <p class="post-date">Septiembre 22, 2024</p> -->
-                            
-                            <p class="post-content fuenteBerlin">
-                                En Maywa® nos dedicamos a
-                                producir productos innovadores de alta
-                                calidad que contribuyen a la sociedad,
-                                generando empleo y motivando al sector
-                                primario dedicado a la agricultura. Nos
-                                esforzamos por producir nuestros vinos con
-                                los mejores ingredientes, apoyando a los
-                                agricultores locales y promoviendo prácticas
-                                agrícolas sostenibles.                                
-
-                            </p>
-                                                        
-
+<!--             <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">Contact Form #05</h2>
+                </div>
+            </div> -->
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6">
+                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                    <h1>Contáctanos</h1>
+                                    <hr>
+                                    <p class="mb-4">Poner algun mensaje aqui</p>
+                                    <div id="form-message-warning" class="mb-4"></div> 
+                                    <div id="form-message-success" class="mb-4">
+                                    Su mensaje a sido enviado!
+                                    </div>
+                                    <div class="row mb-4">
+                                        <div class="col-md-4" style="padding-right: 0px;">
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                <p><span>DIRECCIÓN:</span> 198 W-21th Street,Cuenca  10016</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4" style="padding-left: 0px;">
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                <p><span>CORREO:</span> <a href="mailto:info@maywabrewing.com">info@maywabrewing.com</a></p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                <p><span>TELÉFONO:</span> <a href="tel://1234567920">+593 99 999 9999</a></p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12"> 
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Correo">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Título">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Crear un mensaje aqui"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="submit" value="Enviar mensaje" class="btn btn-primary">
+                                                    <div class="submitting"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <!-- <div class="w-100 social-media mt-5">
+                                        <h3>Follow us here</h3>
+                                        <p>
+                                            <a href="#">Facebook</a>
+                                            <a href="#">Twitter</a>
+                                            <a href="#">Instagram</a>
+                                            <a href="#">Dribbble</a>
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-stretch">
+                                <div class="info-wrap w-100 p-5 img" style="background-image: url(images/img.jpg);">
+                      </div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-
-            <div class="row no-gutter">
-
-                
-                <div class="col-md-8 col-sm-8" style="padding-left: 50px;">
-                    <div class="blog-wrapper">
-
-                        <div class="blog-content">
-                            <h4 class="blog-title"><a class="fuenteCorinthia" style="font-size:50px">Visión</a></h4>
-                            <!-- <p class="post-date">Septiembre 22, 2024</p> -->
-                            
-                            <p class="post-content fuenteBerlin">
-                                En 10 años Maywa® se convertirá en la empresa líder del mercado en
-                                productos innovadores y sostenibles que apoyen al sector primario,
-                                generando empleo y contribuyendo a la sociedad.
-                                Nuestros clientes nos reconocerán como una marca confiable y comprometida con la calidad y la sostenibilidad.
-                            
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
         </div>
     </section>
-
 
 
 
