@@ -1,0 +1,29 @@
+    @font-face{
+        font-family: fCorinthia;
+        src: url("fonts/Corinthia-Bold.ttf");
+    }
+
+    .fuenteCorinthia{
+        font-family: fCorinthia;
+        color: #E3AB57;
+        font-size: 25px;
+    }
+
+    @font-face{
+        font-family: fBerlin;
+        src: url("fonts/Berlin_Sans_FB.TTF");
+    }
+
+    .fuenteBerlin{
+        font-family: fBerlin;
+        color: #E3AB57;
+        font-size: 20px;
+    }    
+
+    hr {
+      border-color: #E3AB57;
+    }
+
+    .img-principal{
+        margin-top: 5px!important;
+    }

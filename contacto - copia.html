@@ -19,11 +19,35 @@
     
 
 <style>
+
+
+
+#name::placeholder {color: #c0bbba!important;}
+#email::placeholder {color: #c0bbba!important;}
+#subject::placeholder {color: #c0bbba!important;}
+#message::placeholder {color: #c0bbba!important;}
+
+    .dbox p span {
+         color: white!important;
+    }
+
+    a {
+        color: white!important;
+    }
+
+
+    @media (min-width: 768px) {
+        .p-md-5 {
+            padding: 1rem !important;
+        }
+    }
+
     .super-deal-section {
         background-color: black!important;
     }
     body {
         background-color: black!important;
+        color: #f9f1f1;
     }
 
     @font-face{
@@ -56,6 +80,9 @@
     .img-principal{
         margin-top: 5px!important;
     }
+    .contact-wrap {
+        background: #2c2d2e!important;
+    }    
 </style>
 </head>
 
@@ -95,7 +122,7 @@
             </div>
 
             <div class="offcanvas_footer">
-                <span><a href="#"><i class="fa fa-envelope"></i> wine@gmail.com</a></span>
+                <span><a href="#"><i class="fa fa-envelope"></i> info@maywabrewing.com</a></span>
                 <ul>
                     <li class="facebook">
                         <a href="#">
@@ -197,99 +224,98 @@
     </header>
 
 
-    <section class="super-deal-section" >
-        <div class="container"  >
-
-            <div class="row">
+<section class="ftco-section">
+        <div class="container">
+<!--             <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">Contact Form #05</h2>
+                </div>
+            </div> -->
             <div class="row justify-content-center">
-                <!-- <div class="col-md-12"> -->
-                <br><br>
-                    <!-- <div class="wrapper"> -->
+                <div class="col-md-12">
+                    <div class="wrapper">
                         <div class="row no-gutters">
-                            <div class="col-lg-6">
-
+                            <div class="col-lg-7">
                                 <div class="contact-wrap w-100 p-md-5 p-4">
-
-                                    <h3>Contact us</h3>
-                                    <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+                                    <h1 style="color: white;">Contáctanos</h1>
+                                    <hr>
+                                    <!-- <p class="mb-4">Poner algun mensaje aqui</p> -->
                                     <div id="form-message-warning" class="mb-4"></div> 
-                            <div id="form-message-success" class="mb-4">
-                            Your message was sent, thank you!
-                            </div>
-                                    <div class="row mb-4">
-                                        <div class="col-md-4">
-                                            <div class="dbox w-100 d-flex align-items-start">
-                                        <div class="text">
-                                        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-                                      </div>
-                                  </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="dbox w-100 d-flex align-items-start">
-                                        <div class="text">
-                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-                                      </div>
-                                  </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="dbox w-100 d-flex align-items-start">
-                                        <div class="text">
-                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-                                      </div>
-                                  </div>
-                                        </div>
+                                    <div id="form-message-success" class="mb-4">
+                                        Su mensaje a sido enviado!
                                     </div>
+
                                     <form method="POST" id="contactForm" name="contactForm" class="contactForm">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
                                                 </div>
                                             </div>
                                             <div class="col-md-12"> 
                                                 <div class="form-group">
-                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Correo">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Título">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Create a message here"></textarea>
+                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Crear un mensaje aqui"></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                                <!-- <div class="form-group"> -->
+                                                    <input type="submit" value="Enviar mensaje" class="btn btn-primary">
                                                     <div class="submitting"></div>
-                                                </div>
+                                                <!-- </div> -->
                                             </div>
                                         </div>
                                     </form>
+                                     <div class="row mb-4">
+                                        <div class="col-md-4" >
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                <p><span>DIRECCIÓN:</span> 198 W-21th Street,Cuenca  10016</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                <p><span>CORREO:</span> 
+                                                    <a href="mailto:info@maywabrewing.com">info@maywabrewing.com</a>
+                                                </p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                <p><span>TELÉFONO:</span> 
+                                                    <a href="tel:+593998336246">+593 99 833 6246</a>
+
+
+                                                </p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 d-flex align-items-stretch">
-                                <div class="info-wrap w-100 p-5 img" style="background-image: url(images/img.jpg);">
-                      </div>
+                            <div class="col-lg-5 d-flex align-items-stretch">
+                                <div class="info-wrap w-100 p-5 img" style="background-image: url(images/colorada.jpg);">
+                                </div>
                             </div>
                         </div>
-                    <!-- </div> -->
+                    </div>
                 </div>
             </div>
-
-                   
-                <!-- </div> -->
-            <!-- </div> -->
-
-
-
         </div>
-
     </section>
-
 
 
 
