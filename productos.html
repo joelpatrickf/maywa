@@ -7,48 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maywa</title>
 
-    <link rel="stylesheet" href="Dependencies/bootstrap.css">
-    <link rel="stylesheet" href="Dependencies/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="Dependencies/owl.carousel.min.css">
-    <link rel="stylesheet" href="Dependencies/owl.theme.default.min.css">
+    <link rel="stylesheet" href="img_catalogo/styles_catalogo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="style.css">
+
     <link rel="shortcut icon" href="images/logo_maywa.png"> 
 
     
 
-<style>
-    .offcanvas_menu_wrapper {z-index: 1000!important;}
-    @font-face{
-        font-family: fCorinthia;
-        src: url("fonts/Corinthia-Bold.ttf");
-    }
 
-    .fuenteCorinthia{
-        font-family: fCorinthia;
-        color: #E3AB57;
-        font-size: 25px;
-    }
-
-    @font-face{
-        font-family: fBerlin;
-        src: url("fonts/Berlin_Sans_FB.TTF");
-    }
-
-    .fuenteBerlin{
-        font-family: fBerlin;
-        color: #E3AB57;
-        font-size: 20px;
-    }    
-
-    hr {
-      border-color: #E3AB57;
-    }
-
-    .img-principal{
-        margin-top: 5px!important;
-    }
-</style>
 </head>
 
 <body>
@@ -189,23 +160,52 @@
         </div>
     </header>
 
+<div class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="product-content">
+                    <img src="img_catalogo/1.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="product-content">
+                    <img src="img_catalogo/2.png" alt="">
+                </div>
+            </div>
+             <div class="swiper-slide">
+                <div class="product-content">
+                    <img src="img_catalogo/3.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="product-content">
+                    <img src="img_catalogo/4.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
 
 
-
-    <section class="blog">
+<!--     <section class="blog">
         <div class="container">
             <br><br>
             <div class="row">
                 <div class="dart-headingstyle-one text-center">
                     <h2 class="dart-heading">PRODUCTOS EN CONSTRUCCION</h2>
+
                 </div>
             </div>
            
 
         </div>
-    </section>
+    </section> -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <script src="Dependencies/jquery.min.js"></script>
     <script src="Dependencies/jquery.easing.min.js"></script>
@@ -213,6 +213,24 @@
     <script src="Dependencies/masterslider.min.js"></script>
     <script src="Dependencies/owl.carousel.min.js"></script>
     <script src="main.js"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper",{
+            effect: "coverflow",
+            grabCursor:true,
+            centeredSlides:true,
+            slidesPerView:"auto",
+            loop:true,
+            coverflowEffect:{
+                depth:500,
+                modifer:1,
+                slidesShadows:true,
+                rotate:0,
+                stretch:0
+            }
+        })
+    </script>    
 </body>
 
 </html>
