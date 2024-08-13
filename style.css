@@ -37,12 +37,20 @@ body {
     .container {
         width: 450px;
     }
+.pt-pb {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}    
 }
 
 @media only screen and (max-width: 479px) {
     .container {
         width: 100%;
     }
+.pt-pb {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}    
 }
 
 .capitalize {
@@ -1388,8 +1396,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pt-pb {
-    padding-top: 311px;
-    padding-bottom: 25px;
+    padding-top: 104px;
+/*    padding-bottom: 30px;*/
+/*    height: 790px;*/
 }
 /*.pt-pb {
     padding-top: 0;
