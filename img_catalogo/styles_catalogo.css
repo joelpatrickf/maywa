@@ -15,6 +15,7 @@ body{
 .swiper{
 /*    width: 100%;*/
 /*    padding: 150px 0 50px 0!important;*/
+    padding: 50px 0 50px 0!important;
 
 
 }
@@ -24,8 +25,8 @@ body{
     height: 794px;*/
 /*    width: 1123px!important;
     height: 794px!important;  */  
-    width: 1023px!important;
-    height: 694px!important;      
+    width: 300px!important;
+    height: 200px!important;      
     background-color: #323232;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 /*    padding: 40px;*/
