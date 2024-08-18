@@ -19,14 +19,16 @@ body{
 
 
 }
-
+/*DIMENSIONES
+    1080 w x 1920 h
+*/
 .swiper-slide{
 /*    width: 1123px;
     height: 794px;*/
-/*    width: 1123px!important;
-    height: 794px!important;  */  
-    width: 300px!important;
-    height: 200px!important;      
+/*    width: 1080px!important;
+    height: 1920px!important;  */
+    width: 700px!important;
+    height: 495px!important;
     background-color: #323232;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 /*    padding: 40px;*/
