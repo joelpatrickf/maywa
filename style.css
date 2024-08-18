@@ -47,10 +47,10 @@ body {
     .container {
         width: 100%;
     }
-.pt-pb {
-    padding-top: 0!important;
-    padding-bottom: 0!important;
-}    
+    .pt-pb {
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }    
 }
 
 .capitalize {

@@ -19,22 +19,44 @@ body{
 
 
 }
-/*DIMENSIONES
-    1080 w x 1920 h
-*/
+/*DIMENSIONES 1080 w x 1920 h */
+
+
 .swiper-slide{
-/*    width: 1123px;
-    height: 794px;*/
-/*    width: 1080px!important;
-    height: 1920px!important;  */
     width: 700px!important;
     height: 495px!important;
+
+
     background-color: #323232;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 /*    padding: 40px;*/
     text-align: center;
 
 }
+
+@media (max-width: 960px) {
+  body {
+    transform: rotateZ(90deg);
+  }
+}
+/*@media only screen and (max-width: 767px) {
+    .swiper-slide{
+        width: 360px!important;
+        height: 640px!important;
+    } 
+       
+}*/
+
+/*@media only screen and (max-width: 479px) {
+    .container {
+        width: 100%;
+    }
+    .pt-pb {
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }    
+}*/
+
 
 .icons{
     display: flex;
