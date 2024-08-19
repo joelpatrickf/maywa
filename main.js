@@ -64,7 +64,8 @@
     });
 
     //master slider carousel
-
+        // width: 1024,
+        // height: 740,
     var slider = new MasterSlider();
     slider.setup('masterslider', {
         width: 1024,

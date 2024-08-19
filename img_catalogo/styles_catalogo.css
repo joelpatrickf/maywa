@@ -1,26 +1,73 @@
-html,
-/*body{
+html,body{
     position: relative;
     height: 100%;
 }
-body{
-    background-color: #323232;
-    font-family: Helvetica Neue, Helvetica;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-}*/
-
 .swiper{
-/*    width: 100%;*/
-/*    padding: 150px 0 50px 0!important;*/
+    /*    width: 100%;*/
+    /*    padding: 150px 0 50px 0!important;*/
     padding: 50px 0 50px 0!important;
-
-
 }
+
 /*DIMENSIONES 1080 w x 1920 h */
 
+#container {
+    display: block;
+}
+
+@media only screen and (orientation: portrait) {
+  #container {
+    height: 100vh;
+    width: 100vh;
+    overflow-x: auto;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transform-origin: 100% 0vh 0;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+        padding-top: 1px!important;
+        padding-left: 50px!important;
+  }
+}
+@media only screen and (orientation:landscape) {
+  #container {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    padding-top: 100px!important;
+        padding-left: 50px!important;
+  }
+}
+/*@media only screen and (orientation:landscape){
+  #container {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+        padding-top: 100px!important;
+        padding-left: 50px!important;
+  }
+}*/
+
+
+@media (max-width: 660px) {
+  
+    .offcanvas_menu_wrapper {display: none!important;}  
+    header{display: none!important;}
+    
+    .canvas_open, .offcanvas_menu_wrapper{display: none!important;}    
+
+    
+}
+/*DIMENSIONES 1080 w x 1920 h */
 
 .swiper-slide{
     width: 700px!important;
@@ -33,29 +80,6 @@ body{
     text-align: center;
 
 }
-
-@media (max-width: 960px) {
-  body {
-    transform: rotateZ(90deg);
-  }
-}
-/*@media only screen and (max-width: 767px) {
-    .swiper-slide{
-        width: 360px!important;
-        height: 640px!important;
-    } 
-       
-}*/
-
-/*@media only screen and (max-width: 479px) {
-    .container {
-        width: 100%;
-    }
-    .pt-pb {
-        padding-top: 0!important;
-        padding-bottom: 0!important;
-    }    
-}*/
 
 
 .icons{
