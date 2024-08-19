@@ -32,35 +32,43 @@ html,body{
 
         padding-top: 1px!important;
         padding-left: 50px!important;
-  }
-  img {
+    }
+    img {
         height: 85%!important;
     }
+    .swiper-slide{
+        width: 195px!important;
+    }    
 }
 
 @media (max-width: 660px) {
-  
     .offcanvas_menu_wrapper {display: none!important;}  
     header{display: none!important;}
-    
     .canvas_open, .offcanvas_menu_wrapper{display: none!important;}    
-
     
+    .swiper-slide{
+        width: 604px!important;
+        height: 495px!important;
+    }        
 }
+
+@media (min-width: 480px) {
+    .swiper-slide{
+        width: 700px!important;
+        height: 495px!important;
+
+
+        background-color: #323232;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+        text-align: center;
+
+    }    
+}
+
 /*DIMENSIONES 1080 w x 1920 h */
 
-.swiper-slide{
-/*    width: 700px!important;*/
-    width: 595px!important;
-    height: 495px!important;
 
-
-    background-color: #323232;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-/*    padding: 40px;*/
-    text-align: center;
-
-}
 
 
 .icons{
