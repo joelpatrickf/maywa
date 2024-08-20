@@ -20,13 +20,13 @@
 <style>
     @font-face{
         font-family: fCorinthia;
-        src: url("fonts/Corinthia-Bold.ttf");        
+        src: url("fonts/Corinthia-Bold.ttf");
     }
 
     .fuenteCorinthia{
         font-family: fCorinthia;
-        font-size: 50px;
-        color: #E3AB57!important;
+        color: #E3AB57;
+        font-size: 25px;
     }
 
     @font-face{
@@ -36,10 +36,9 @@
 
     .fuenteBerlin{
         font-family: fBerlin;
-        color: white!important;
+        color: #E3AB57;
         font-size: 20px;
-        text-align: justify
-    }
+    }    
 
     hr {
       border-color: #E3AB57;
@@ -48,6 +47,20 @@
     .img-principal{
         margin-top: 5px!important;
     }
+    .spnMaywa1{
+        color:#d9932f;
+        font-weight:bold;
+    }
+    .bold{
+        font-weight:bold;
+    }
+
+.parrafo img{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
 </style>
 </head>
 
@@ -75,11 +88,8 @@
 
             <div id="menu" class="text-left">
                 <ul class="offcanvas_main_menu">
-                    <li class="menu-item-has-children">
-                        <a href="index.html">Home</a>
-                    </li>
-
-                    <li class="menu-item-has-children"><a href="#">Productos</a></li>
+                    <li class="menu-item-has-children"><a href="#">Home</a></li>
+                    <li class="menu-item-has-children"><a href="productos.html">Productossss</a></li>
                     <li class="menu-item-has-children"><a href="nosotros.html">Nosotros</a></li>
                     <li class="menu-item-has-children"><a href="blog.html">Blog</a></li>
                     <li class="menu-item-has-children"><a href="contacto.html">Contacto</a></li>
@@ -88,7 +98,7 @@
             </div>
 
             <div class="offcanvas_footer">
-                <span><a href="#"><i class="fa fa-envelope"></i> info@maywabrewing.com</a></span>
+                <span><a href="#"><i class="fa fa-envelope"></i> wine@gmail.com</a></span>
                 <ul>
                     <li class="facebook">
                         <a href="#">
@@ -120,11 +130,8 @@
                             <div class="main_menu menu_two menu_position">
                                 <nav>
                                     <ul>
-                                        <li>
-                                            <a href="index.html" class="">Home</a>
-                                        </li>
-                                        <li><a href="#">Productos</a></li>
-                                        <!-- MENU ARRIBA PRINCIPAL -->
+                                        <li><a href="index.html" class="">Home</a></li>
+                                        <li><a href="productos.html">Productos</a></li>
                                         <li><a href="nosotros.html">Nosotros</a></li>
                                         <li><a href="blog.html">Blog</a></li>
                                         <li><a href="contacto.html">Contacto</a></li>
@@ -190,44 +197,49 @@
     </header>
 
 
-    <section class="super-deal-section" style="background-image: url(images/MisionVision.png);opacity: 5!important;">
-        <div class="container"  >
-
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="super-deal">
-                        <h2 class="fuenteCorinthia">Misión</h2>
-                        <hr>
-                        <p class="fuenteBerlin">La nueva generación de productores de vinos frutales está introduciendo una nueva era de innovación y sostenibilidad en la industria. Con un enfoque en técnicas modernas de producción y tecnología se están creando vinos de alta calidad con un impacto ambiental reducido. Al trabajar en colaboración con agricultores locales están asegurando la calidad y la sostenibilidad, a su vez que se está brindando apoyo a las comunidades locales.</p>
-                        <div class="clearfix"></div>
 
 
-                        <h2 class="fuenteCorinthia">Visión</h2>
-                        <hr>
-                        <p class="fuenteBerlin">En 10 años Maywa® se convertirá en la empresa líder del mercado en productos innovadores y sostenibles que apoyen al sector primario,
-                        generando empleo y contribuyendo a la sociedad.
-                        Nuestros clientes nos reconocerán como una marca confiable y comprometida con la calidad y la sostenibilidad.</p>
-                        <div class="clearfix"></div>
-                    </div>
+    <section class="blog">
+        <div class="container">
+
+            <div class="row no-gutter">
+                
+                <div class="capa"></div>
+                <div class="parrafo">
+                    <img src="images/b1.png" class="img-responsive" alt="">
+                    <br><br>
+                    <h4 class="blog-title "><a href="#" style="font-weight:bold;">MARIDAJE</a></h4>
+                    <p class="post-date">Septiembre 22, 2024</p>
+                    
+                    <p class="post-content">“ Los vinos frutales son muy versátiles y se pueden maridar con una gran variedad de platos. Algunos maridajes clásicos incluyen:” <br><br>
+                    
+                    <span class="spnMaywa1">Vinos de frutos rojos: </span>Perfectos para acompañar ensaladas, quesos frescos, carnes blancas y postres.<br>
+                    
+                    <span class="spnMaywa1">Vinos de frutas tropicales: </span>Ideales para maridar con platos especiados, cocina asiática y postres exóticos.<br>
+                    
+
+                    <span class="spnMaywa1">Vinos de frutas cítricas: </span>Excelentes para acompañar pescados, mariscos y platos ligeros.<br>
+                    
+
+                    <br><br>
+                    <span class="spnMaywa1">Referencias bibliográficas</span>
+                    <p style="font-size: 12px;">
+                    Boulton, R. B., Singleton, V. L., Bisson, L. F., & Kunkee, R. E. (1996). "Principles and Practices of Winemaking." Springer. <br>
+
+                    Fleet, G. H. (2003). "Yeast interactions and wine flavour." International Journal of Food Microbiology, 86(1-2), 11-22. <br>
+
+                    Jackson, R. S. (2014). "Wine Science: Principles and Applications." Academic Press. <br>
+
+                    Kosseva, M. R., Joshi, V. K., & Panesar, P. S. (Eds.). (2016). "Science and Technology of Fruit Wine Production." Academic Press. <br>
+
+                    Tayfun, A. (2019). "Fruit Wines: Biochemistry and Technology." Wiley-Blackwell. <br>
+                        
+                    </p>
+
                 </div>
             </div>
-
-
-
         </div>
-
     </section>
-
-
-
-
-
-    <script src="Dependencies/jquery.min.js"></script>
-    <script src="Dependencies/jquery.easing.min.js"></script>
-    <script src="Dependencies/bootstrap.min.js"></script>
-    <script src="Dependencies/masterslider.min.js"></script>
-    <script src="Dependencies/owl.carousel.min.js"></script>
-    <script src="main.js"></script>
 </body>
 
 </html>
