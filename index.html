@@ -35,10 +35,79 @@
     <link rel="stylesheet" href="Dependencies/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estilosRagde.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css" />   
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--Stylesheets--> 
+<style>
+    .float{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        background-color: #25D366;
+        bottom: 40px;
+        right: 40px;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 999;
+    }
+    .fa-whatsapp{
+        font-size: 60px;
+    }
+    .float:hover{
+        background-color: #28e76e;
+    }
+
+
+/* popup age */
+.modal-content {
+    background-color: #2c2d2e!important;
+}
+.modal-content {
+  position: fixed;
+  background: rgba(0,0,0,0.7);
+  top: 25vh;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.linea
+{
+    display: inline-block;
+}
+</style>
 </head>
+<body>
 
-<body >
+<!-- Modal HTML -->
+<div id="myModal" class="modal fade" data-keyboard="false" data-backdrop="static" style="">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <div class="modal-body" >
+                <h2>Eres Mayor de Edad</h2>
+
+                    <div class="form-group">
+                        <button id="btnSi" type="submit" class="linea btn btn-success btn-lg">Soy Mayor</button>
+                        <button id="btnNo" type="submit" class="linea btn btn-warning btn-lg">Soy Menor</button>                                
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <!-- boton flotante whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=593998336246&text=Saludos,%20Somos%20Maywa,%20%20nos%20complace%20poder%20ayudar," target="_blank" class="float">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
 
     <!-- header section for mobile size  -->
     <div class="offcanvas_menu offcanvas_two">
@@ -1025,3 +1094,19 @@
 </body>
 
 </html>
+
+
+<script>
+$( document ).ready(function() {
+    $('#myModal').modal('toggle')
+
+    $("#btnSi").click(function() {
+        $('#myModal').modal('hide')
+    })
+    $("#btnNo").click(function() {
+        alert("No puede entrar")
+    })    
+    
+});
+
+</script>
