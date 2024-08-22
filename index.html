@@ -39,6 +39,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!--Stylesheets--> 
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+
 <style>
     .float{
         position: fixed;
@@ -87,15 +90,22 @@
 <div id="myModal" class="modal fade" data-keyboard="false" data-backdrop="static" style="">
     <div class="modal-dialog modal-login">
         <div class="modal-content">
-            <div class="modal-body text-center" >
-                <h2>Eres Mayor de Edad</h2>
 
-                    <div class="form-group">
-                        <button id="btnSi" type="submit" class="linea btn btn-success btn-lg">Soy Mayor</button>
-                        <button id="btnNo" type="submit" class="linea btn btn-warning btn-lg">Soy Menor</button>                                
-                    </div>
-                
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>            
+    <div class="modal-body text-center" >
+        <h2>Eres Mayor de Edad</h2>
+
+            <div class="form-group">
+                <button id="btnSi" type="submit" class="linea btn btn-success btn-lg">Soy Mayor</button>
+                <button id="btnNo" type="submit" class="linea btn btn-warning btn-lg">Soy Menor</button>                                
             </div>
+        
+    </div>
 
         </div>
     </div>
@@ -1092,6 +1102,10 @@
     <script src="Dependencies/bootstrap.min.js"></script>
     <script src="Dependencies/masterslider.min.js"></script>
     <script src="Dependencies/owl.carousel.min.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+
     <script src="main.js"></script>
 </body>
 
@@ -1106,9 +1120,11 @@ $( document ).ready(function() {
         $('#myModal').modal('hide')
     })
     $("#btnNo").click(function() {
-        alert("No puede entrar")
+        toastr["warning"]("No tiene la Edad suficiente para entrar", "!Atención!");
+
     })    
     
 });
+
 
 </script>
