@@ -82,12 +82,19 @@
     }
 
     .linea{display: inline-block;}
+
+.ragdeImg {
+    max-width: 50%;
+}
+    .testi .item .name {
+        font-size: 30px;
+    }
 </style>
 </head>
 <body>
 
 <!-- Modal HTML -->
-<div id="myModal" class="modal fade" data-keyboard="false" data-backdrop="static" style="">
+<!-- <div id="myModal" class="modal fade" data-keyboard="false" data-backdrop="static" style="">
     <div class="modal-dialog modal-login">
         <div class="modal-content">
 
@@ -109,7 +116,7 @@
 
         </div>
     </div>
-</div>
+</div> -->
 
 
 
@@ -797,137 +804,116 @@
         <div class="container">
             <div class="row">
                 <div class="dart-headingstyle-one text-center">
-                    <h1 class="dart-heading">Review del Consomidor</h1>
+                    <h1 class="dart-heading">Review del Consumidor</h1>
                     <img src="images/Icon-sep.png" alt="">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="carousel slide" id="quote-carousel" data-interval="3000">
-                        <ol class="carousel-indicators">
-                            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#quote-carousel" data-slide-to="1"></li>
-                            <li data-target="#quote-carousel" data-slide-to="2"></li>
-                            <li data-target="#quote-carousel" data-slide-to="3"></li>
-                            <li data-target="#quote-carousel" data-slide-to="4"></li>
-                        </ol>
 
-                        <div class="carousel-inner">
-                            <div class="active item">
-                                <blockquote>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="">
-                                                <img src="images/t5.png" class="img-circle" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <p>"El vino semidulce de mora de Maywa ha superado todas mis expectativas. 
-                                            <br>
-                                            Este vino, con sus aromas a ciruela y notas achocolatadas, ofrece una experiencia sensorial que es verdaderamente única y memorable, ideal para compartir en un brindis con los colegas y amigos"</p>
-                                            <span class="name dart-fs-16">Abg. Tommy Morales</span>
-                                            <!-- <span class="position dart-fs-12">Director</span> -->
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>                            
-                            <div class=" item">
-                                <blockquote>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="">
-                                                <img src="images/t1.png" class="img-circle" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <p>"El Vino Seco de Jamaica de <span style="color:#d9932f;">Maywa</span> es una verdadera joya para los amantes del vino. Desde el primer momento, su aroma floral y su sabor complejo y bien equilibrado me impresionaron. 
-                                                <br>
-                                            La atención al detalle en la selección de los ingredientes y el cuidado en el proceso de fermentación son evidentes, reflejando el compromiso de Maywa con la excelencia y la calidad."</p>
-                                            <span class="name dart-fs-16">Ing. Camila Herrera</span>
-                                            <!-- <span class="position dart-fs-12">Director</span> -->
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
-                            <div class="item">
-                                <blockquote>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="">
-                                                <img src="images/t2.png" class="img-circle" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <p>"Como alguien que ya tiene cierta experiencia en el mundo de los vinos frutales, el vino seco de mora de Maywa ha sido una revelación. Desde el primer sorbo, se puede percibir una calidad extraordinaria que distingue a este vino de otros. 
-                                            <br>
-                                            <br>
-                                            Sus notas amaderadas, combinadas con el sabor intenso de la mora, crean una experiencia de degustación que es verdaderamente elegante y exquisita."</p>
-                                            <span class="name dart-fs-16">Ing. Cristhian Argandoña</span>
-                                            <!-- <span class="position dart-fs-12">Director</span> -->
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
-                            <div class="item">
-                                <blockquote>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="">
-                                                <img src="images/t3.png" class="img-circle" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <p>"Mi experiencia con el vino rosado dulce de mora de Maywa ha sido absolutamente encantadora. Desde el primer sorbo, pude percibir la calidad y el cuidado que se ha puesto en este vino.
-                                            <br>
-                                            El color rosado vibrante del vino es tan atractivo como su sabor, y cada trago ofrece una sensación de frescura que es perfecta para cualquier ocasión."</p>
-                                            <span class="name dart-fs-16">Dis. Fiorella Martínez</span>
-                                            <!-- <span class="position dart-fs-12">Director</span> -->
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
-                            <div class="item">
-                                <blockquote>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="">
-                                                <img src="images/t4.png" class="img-circle" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <p>"Desde el primer sorbo, el vino semidulce de mora de Maywa me transportó a un mundo de sabores intensos y sofisticados. La combinación de la acidez perfecta con un toque sutil de dulzura crea una experiencia en el paladar que es difícil de igualar. 
-                                            <br>
-                                            Cada detalle, desde el aroma afrutado, con sus notas amaderadas, hasta la textura sedosa, demuestra un compromiso inquebrantable con la calidad."</p>
-                                            <span class="name dart-fs-16">Ing. Fernanda Ávila</span>
-                                            <!-- <span class="position dart-fs-12">Director</span> -->
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
+<!-- <div class ="container-fluid">
 
-                            <div class="item">
-                                <blockquote>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="">
-                                                <img src="images/t3.png" class="img-circle" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <p>"Como alguien que es completamente nueva en el mundo de los vinos, mi experiencia con el vino rosado dulce de mora de Maywa ha sido absolutamente encantadora. Desde el primer sorbo, pude percibir la calidad y el cuidado que se ha puesto en este vino.
-                                            <br>
-                                            El color rosado vibrante del vino es tan atractivo como su sabor, y cada trago ofrece una sensación de frescura que es perfecta para cualquier ocasión. A pesar de ser una neófita en el tema de vinos, este vino ha logrado capturar mi atención y mi paladar de una manera que no esperaba."</p>
-                                            <span class="name dart-fs-16">Dis. Fiorella Martínez</span>
-                                            <!-- <span class="position dart-fs-12">Director</span> -->
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>                            
+  <div class ="row">
 
-                        </div>
-                    </div>
+    <div class ="col-md-6 col-sm-4">
+        <img src="images/t5.png" class="img-circle" alt="">
+    </div>
+
+    <div class ="col-md-6 col-sm-6">
+        <p>"El vino semidulce de mora de Maywa ha superado todas mis expectativas. 
+        <br>
+        Este vino, con sus aromas a ciruela y notas achocolatadas, ofrece una experiencia sensorial que es verdaderamente única y memorable, ideal para compartir en un brindis con los colegas y amigos"</p>
+        <span class="name dart-fs-16">Abg. Tommy Morales</span>
+     </div>
+  </div>
+
+</div>      -->       
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+          <div class="item active">
+              <div class ="row">
+                <div class ="col-md-4 col-sm-6"><img src="images/t5.png" class="img-circle ragdeImg" alt=""></div>
+                <div class ="col-md-8 col-sm-6">
+                    <span class="name dart-fs-16">"El vino semidulce de mora de Maywa ha superado todas mis expectativas. <br>
+                    Este vino, con sus aromas a ciruela y notas achocolatadas, ofrece una experiencia sensorial que es verdaderamente única y memorable, ideal para compartir en un brindis con los colegas y amigos"</span><br><br>
+                    <span class="name dart-fs-18">Abg. Tommy Morales</span>
+                 </div>
+              </div>
+
+          </div>
+
+          <div class="item ">
+              <div class ="row">
+                <div class ="col-md-4 col-sm-6"><img src="images/t1.png" class="img-circle ragdeImg" alt=""></div>2
+                <div class ="col-md-8 col-sm-6">
+                    <span class="name dart-fs-16">"El Vino Seco de Jamaica de <span style="color:#d9932f;">Maywa</span> es una verdadera joya para los amantes del vino. Desde el primer momento, su aroma floral y su sabor complejo y bien equilibrado me impresionaron. <br>
+
+                        La atención al detalle en la selección de los ingredientes y el cuidado en el proceso de fermentación son evidentes, reflejando el compromiso de Maywa con la excelencia y la calidad."</span><br><br>
+                    <span class="name dart-fs-18">Ing. Camila Herrera</span>
                 </div>
-            </div>
+              </div>
+          </div>
+
+          <div class="item">
+              <div class ="row">
+                <div class ="col-md-4 col-sm-6"><img src="images/t2.png" class="img-circle ragdeImg" alt=""></div>
+                <div class ="col-md-8 col-sm-6">
+                    <span class="name dart-fs-16">"Como alguien que ya tiene cierta experiencia en el mundo de los vinos frutales, el vino seco de mora de Maywa ha sido una revelación. Desde el primer sorbo, se puede percibir una calidad extraordinaria que distingue a este vino de otros. 
+                    <br>
+                    <br>
+                    Sus notas amaderadas, combinadas con el sabor intenso de la mora, crean una experiencia de degustación que es verdaderamente elegante y exquisita."</span><br><br>
+                    <span class="name dart-fs-18">Ing. Cristhian Argandoña</span>
+                 </div>
+              </div>
+
+          </div>
+          <div class="item">
+              <div class ="row">
+                <div class ="col-md-4 col-sm-6"><img src="images/t3.png" class="img-circle ragdeImg" alt=""></div>
+                <div class ="col-md-8 col-sm-6">
+                    <span class="name dart-fs-16">"Mi experiencia con el vino rosado dulce de mora de Maywa ha sido absolutamente encantadora. Desde el primer sorbo, pude percibir la calidad y el cuidado que se ha puesto en este vino.
+                    <br>
+                    El color rosado vibrante del vino es tan atractivo como su sabor, y cada trago ofrece una sensación de frescura que es perfecta para cualquier ocasión."</span><br><br>
+                    <span class="name dart-fs-18">Dis. Fiorella Martínez</span>
+                 </div>
+              </div>
+
+          </div>
+
+
+          <div class="item">
+              <div class ="row">
+                <div class ="col-md-4 col-sm-6"><img src="images/t4.png" class="img-circle ragdeImg" alt=""></div>
+                <div class ="col-md-8 col-sm-6">
+                    <span class="name dart-fs-16">"Desde el primer sorbo, el vino semidulce de mora de Maywa me transportó a un mundo de sabores intensos y sofisticados. La combinación de la acidez perfecta con un toque sutil de dulzura crea una experiencia en el paladar que es difícil de igualar. 
+                    <br>
+                    Cada detalle, desde el aroma afrutado, con sus notas amaderadas, hasta la textura sedosa, demuestra un compromiso inquebrantable con la calidad."</p><br><br>
+                    <span class="name dart-fs-18">Ing. Fernanda Ávila</span>
+                 </div>
+              </div>
+
+          </div>
+    </div>
+    <!-- Indicators -->
+ <!--    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> -->
+
+    <!-- Left and right controls -->
+   <!--  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> -->
+
         </div>
     </section>
 
@@ -1113,18 +1099,18 @@
 
 
 <script>
-$( document ).ready(function() {
-    $('#myModal').modal('toggle')
+// $( document ).ready(function() {
+//     $('#myModal').modal('toggle')
 
-    $("#btnSi").click(function() {
-        $('#myModal').modal('hide')
-    })
-    $("#btnNo").click(function() {
-        toastr["warning"]("No tiene la Edad suficiente para entrar", "!Atención!");
+//     $("#btnSi").click(function() {
+//         $('#myModal').modal('hide')
+//     })
+//     $("#btnNo").click(function() {
+//         toastr["warning"]("No tiene la Edad suficiente para entrar", "!Atención!");
 
-    })    
+//     })    
     
-});
+// });
 
 
 </script>
