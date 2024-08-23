@@ -131,30 +131,6 @@
         }
     });
 
-    $(".product-slider5").owlCarousel({
-        loop: false,
-        margin: 15,
-        autoplay: false,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: false,
-        responsiveClass: true,
-        width:900,
 
-        responsive: {
-            0: {
-                items: 1,
-                nav: false
-            },
-            600: {
-                items: 7,
-                nav: false
-            },
-            1000: {
-                items: 4,
-                nav: true,
-                dots: false
-            }
-        }
-    });
 
 })(jQuery);

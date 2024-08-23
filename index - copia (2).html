@@ -42,8 +42,6 @@
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
 
-
-
 <style>
     .float{
         position: fixed;
@@ -85,22 +83,18 @@
 
     .linea{display: inline-block;}
 
-    .ragdeImg {
-        max-width: 50%;
-    }
+.ragdeImg {
+    max-width: 75%;
+}
     .testi .item .name {
         font-size: 20px;
     }
-    .carousel-control .glyphicon-chevron-right,
-    .carousel-control .glyphicon-chevron-left {
-        top: -12%;
-    }    
 </style>
 </head>
 <body>
 
 <!-- Modal HTML -->
-<div id="myModal" class="modal fade" data-keyboard="false" data-backdrop="static" style="">
+<!-- <div id="myModal" class="modal fade" data-keyboard="false" data-backdrop="static" style="">
     <div class="modal-dialog modal-login">
         <div class="modal-content">
 
@@ -122,7 +116,7 @@
 
         </div>
     </div>
-</div>
+</div> -->
 
 
 
@@ -816,7 +810,23 @@
             <hr>
             <img src="images/Icon-sep.png" alt="">
 
+<!-- <div class ="container-fluid">
 
+  <div class ="row">
+
+    <div class ="col-md-6 col-sm-4">
+        <img src="images/t5.png" class="img-circle" alt="">
+    </div>
+
+    <div class ="col-md-6 col-sm-6">
+        <p>"El vino semidulce de mora de Maywa ha superado todas mis expectativas. 
+        <br>
+        Este vino, con sus aromas a ciruela y notas achocolatadas, ofrece una experiencia sensorial que es verdaderamente única y memorable, ideal para compartir en un brindis con los colegas y amigos"</p>
+        <span class="name dart-fs-16">Abg. Tommy Morales</span>
+     </div>
+  </div>
+
+</div>      -->       
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 
@@ -829,9 +839,7 @@
                 <div class ="col-md-8 col-sm-6">
                     <span class="name dart-fs-14">"El vino semidulce de mora de <span style="color:#d9932f;">Maywa</span>  ha superado todas mis expectativas. <br>
                     Este vino, con sus aromas a ciruela y notas achocolatadas, ofrece una experiencia sensorial que es verdaderamente única y memorable, ideal para compartir en un brindis con los colegas y amigos"</span><br><br>
-                    <br><br><br>
                     <span class="name dart-fs-18">Abg. Tommy Morales</span>
-                    <br>
                  </div>
               </div>
 
@@ -841,10 +849,10 @@
               <div class ="row">
                 <div class ="col-md-4 col-sm-6"><img src="images/t1.png" class="img-circle ragdeImg" alt=""></div>
                 <div class ="col-md-8 col-sm-6">
-                    <span class="name dart-fs-14">"El Vino Seco de Jamaica de <span style="color:#d9932f;">Maywa</span> es una verdadera joya para los amantes del vino. Desde el primer momento, su aroma floral y su sabor complejo y bien equilibrado me impresionaron. 
-                    La atención al detalle en la selección de los ingredientes y el cuidado en el proceso de fermentación son evidentes, reflejando el compromiso de Maywa con la excelencia y la calidad."</span><br><br>
+                    <span class="name dart-fs-14">"El Vino Seco de Jamaica de <span style="color:#d9932f;">Maywa</span> es una verdadera joya para los amantes del vino. Desde el primer momento, su aroma floral y su sabor complejo y bien equilibrado me impresionaron. <br>
+
+                        La atención al detalle en la selección de los ingredientes y el cuidado en el proceso de fermentación son evidentes, reflejando el compromiso de Maywa con la excelencia y la calidad."</span><br><br>
                     <span class="name dart-fs-18">Ing. Camila Herrera</span>
-                    <br><br>
                 </div>
               </div>
           </div>
@@ -854,6 +862,7 @@
                 <div class ="col-md-4 col-sm-6"><img src="images/t2.png" class="img-circle ragdeImg" alt=""></div>
                 <div class ="col-md-8 col-sm-6">
                     <span class="name dart-fs-14">"Como alguien que ya tiene cierta experiencia en el mundo de los vinos frutales, el vino seco de mora de <span style="color:#d9932f;">Maywa</span>  ha sido una revelación. Desde el primer sorbo, se puede percibir una calidad extraordinaria que distingue a este vino de otros. 
+                    <br>
                     <br>
                     Sus notas amaderadas, combinadas con el sabor intenso de la mora, crean una experiencia de degustación que es verdaderamente elegante y exquisita."</span><br><br>
                     <span class="name dart-fs-18">Ing. Cristhian Argandoña</span>
@@ -880,26 +889,31 @@
                 <div class ="col-md-4 col-sm-6"><img src="images/t4.png" class="img-circle ragdeImg" alt=""></div>
                 <div class ="col-md-8 col-sm-6">
                     <span class="name dart-fs-14">"Desde el primer sorbo, el vino semidulce de mora de Maywa me transportó a un mundo de sabores intensos y sofisticados. La combinación de la acidez perfecta con un toque sutil de dulzura crea una experiencia en el paladar que es difícil de igualar. 
-                    Cada detalle, desde el aroma afrutado, con sus notas amaderadas, hasta la textura sedosa, demuestra un compromiso inquebrantable con la calidad."</span><br>
-                    <span class="name dart-fs-16">Ing. Fernanda Ávila</span>
+                    <br>
+                    Cada detalle, desde el aroma afrutado, con sus notas amaderadas, hasta la textura sedosa, demuestra un compromiso inquebrantable con la calidad."</p><br><br>
+                    <span class="name dart-fs-18">Ing. Fernanda Ávila</span>
                  </div>
               </div>
 
           </div>
     </div>
     <!-- Indicators -->
- 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev" >
-      <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+ <!--    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> -->
 
+    <!-- Left and right controls -->
+   <!--  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
-
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
     </a>
-
-  </div>
+  </div> -->
 
         </div>
     </section>
@@ -968,6 +982,29 @@
         </div>
     </section>
 
+<!--     <section class="newsletter-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="dart-headingstyle-one t-mb-20 text-left t-pt-40 t-pb-30">
+                        <h2 class="dart-heading">Noticias</h2>
+                        <p>Suscríbete para noticias</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <form action="#" class="form-inline">
+                        <div class="newsletter t-pt-70 t-pb-30">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Correo...">
+                            </div>
+                            <button type="submit" class="btn btn-default">Subscribe <i
+                                    class="fa fa-envelope"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
     <footer class="footer">
         <div class="container">
